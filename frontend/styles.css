@@ -1,0 +1,34 @@
+.backgroundblok1{
+    width: 2000px;
+    height: 800px;
+    position: absolute;
+    bottom: 300px;
+    left: -80px;
+    transform: rotate(200deg);
+    background-color: rgb(28,68,124);
+}
+
+.backgroundblok2{
+    width: 2000px;
+    height: 70px;
+    position: absolute;
+    bottom: 260px;
+    left: -80px;
+    transform: rotate(200deg);
+    background-color: rgb(59,123,187);
+}
+
+.paypaloozatitel{
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    bottom: 550px;
+    left: 300px;
+    transform: rotate(380deg);
+    background-color: rgba(187, 59, 59, 0);
+}
+
+.welkomtekst{
+    font-size: xx-large;
+
+}
