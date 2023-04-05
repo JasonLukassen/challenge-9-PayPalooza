@@ -32,3 +32,12 @@
     font-size: xx-large;
 
 }
+
+.icon{
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    top:20px;
+    right: -320px;
+    background-color: rgba(187, 59, 59, 0);
+}
