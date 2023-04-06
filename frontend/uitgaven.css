@@ -1,0 +1,105 @@
+.backgroundblok1{
+    width: 2000px;
+    height: 1200px;
+    position: absolute;
+    bottom: 550px;
+    left: -80px;
+    background-color: #1c447c;
+}
+.backgroundblok2{
+    width: 2000px;
+    height: 50px;
+    position: absolute;
+    bottom: 520px;
+    left: -80px;
+    background-color: #3b7bbb;
+}
+
+.backgroundblok3{
+    width: 1715px;
+    height: 645px;
+    position: absolute;
+    bottom: 300px;
+    right: 500px;
+    transform: rotate(90deg);
+    background-color: #ddedfd;
+}
+
+.logoblok{
+    position: absolute;
+    background-color: #fefefe;
+    width: 81px;
+    height: 67px;
+    bottom: 439px;
+    left: 403px;
+    border: 8px solid #1c447c;
+}
+
+.paypaloozatitel{
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    bottom: 650px;
+    left: 245px;
+}
+
+.icon{
+   
+    position: fixed;
+    top:10px;
+    right: 50px;
+    background-color: #03080400;
+    
+}
+
+button {
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+    margin: 7px 0;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+.Uitgavenblok{
+    width: 500px;
+    height: 75px;
+    position: absolute;
+    bottom: 439px;
+    left: 500px;
+    background-color: #1c447c;
+    border: 8px solid #3b7bbb;
+}
+
+.Uitgaventekst {
+    font-family:  arial;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 630px;
+    font-size: 60px;
+    top: 235px;
+}
+
+.home{
+   
+    position: fixed;
+    top:240px;
+    left: 421px;
+    background-color: #03080400;
+    
+}
+
+button {
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+    margin: 7px 0;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
