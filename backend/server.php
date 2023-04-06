@@ -1,6 +1,6 @@
 <?php
 // MySQL server configuration
-$servername = "paypaloozaserver";
+$servername = "localhost";
 $username = "JasonWong";
 $password = "ThisIsThePaypaloozaServer";
 $dbname = "paypalooza";
