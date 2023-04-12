@@ -18,7 +18,7 @@
         </div>
 
         <!-- Main container for all inputs -->
-        <div class="mainContainer">
+        <form action="../backend/server.php" method="post" class="mainContainer">
             <!-- Username -->
             <label for="username">Username</label>
             <input type="text" placeholder="Enter Username" name="username" required>
@@ -27,12 +27,12 @@
 
             <!-- Password -->
             <label for="pswrd">Password</label>
-            <input type="password" placeholder="Enter Password" name="pswrd" required>
+            <input type="password" placeholder="Enter Password" name="password" required>
 
             <!-- sub container for the checkbox and forgot password link -->
             <div class="subcontainer">
                 <label>
-                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                  <input type="checkbox" checked="checked" name="remember_me"> Remember me
                 </label>
                 <p class="forgotpsd"> <a href="#">Forgot Password?</a></p>
             </div>
@@ -44,7 +44,7 @@
             <!-- Sign up link -->
             <p class="register">Not a member?  <a href="#">Register here!</a></p>
 
-        </div>
+        </form>
 
         <div class="slider-thumb"></div>
 

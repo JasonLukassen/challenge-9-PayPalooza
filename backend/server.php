@@ -27,23 +27,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     if (mysqli_num_rows($result) === 1){
         session_start();
         $_SESSION['username'] = $username;
+        if(isset($_POST['remember-me'])){
+            // set cookie for 30 days
+            setcookie("username", $username, time() + (86400 * 30), "/");
+        }
+        header("Location: dashboard.php");
+        exit();
     } else{
         $error_message = "Invalid username or password";
     }
-
-    // Run a sample query
-    $sql = "SELECT * FROM users";
-    $result = $conn->query($sql);
-    
-    if ($result->num_rows > 0) {
-        // output data of each row
-        while($row = $result->fetch_assoc()) {
-            echo "id: " . $row["id"]. " - username: " . $row["username"]. " - password: " . $row["password"]. "<br>";
-        }
-    } else {
-        echo "0 results";
-    }
 }
-
-
 ?>
